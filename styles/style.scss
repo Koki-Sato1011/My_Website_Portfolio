@@ -1,0 +1,180 @@
+@import "mixin";
+@import "mobile";
+
+body {
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  margin: 0;
+  position: relative;
+}
+
+.banner {
+  position: relative;
+
+  & .rogo {
+    position: absolute;
+    font-size: 175px;
+    font-weight: lighter;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: rgb(238, 211, 211);
+  }
+
+  & .image {
+    width: 100%;
+    z-index: 2;
+  }
+
+  & .arrow {
+    position: absolute;
+    top: 20;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 175px;
+    @include animation($name: arrow-anime, $iteration-count: infinite);
+  }
+}
+
+@keyframes arrow-anime {
+  0%,
+  50%,
+  100% {
+    transform: translateY(-10%);
+  }
+  30% {
+    transform: none;
+  }
+}
+
+.introduction {
+  color: rgb(102, 87, 87);
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #ddd7d7;
+}
+
+.frex {
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+
+  & .Myface {
+    width: 25%;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 50%;
+  }
+
+  & .list {
+    list-style: square;
+    margin-top: 75px;
+  }
+
+  & li {
+    font-size: 35px;
+    padding-bottom: 65px;
+  }
+}
+
+.skill {
+  color: rgb(102, 87, 87);
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #ddd7d7;
+}
+
+.frex1 {
+  display: flex;
+  justify-content: center;
+
+  & .skills {
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+    font-family: "Kameron", "Noto Sans JP", sans-serif;
+  }
+
+  & .section1 {
+    margin-left: 170px;
+    margin-right: 20px;
+    margin-top: 77px;
+    text-align: center;
+
+    & .skill__one__text {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 8px;
+    }
+  }
+
+  & .section2 {
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-top: 74px;
+
+    & .skill_image2 {
+      width: 26%;
+    }
+
+    & .width {
+      text-align: center;
+      margin: 35px;
+      padding-bottom: 5px;
+    }
+
+    & .skill__two__text {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+
+  & .skill_image1 {
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+.contact__width {
+  text-align: center;
+  margin: 0 auto;
+
+  & .contact1 {
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+  & .contact2 {
+    width: 105px;
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+}
+
+footer {
+  color: rgb(102, 87, 87);
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #faf8f8;
+
+  & p {
+    margin: 15px;
+  }
+}

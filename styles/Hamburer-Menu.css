@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ddd7d7;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 64px;
+}
+
+.pc-menu {
+  display: block;
+  margin: 0 auto;
+}
+
+.pc-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+
+.pc-menu a {
+  display: block;
+  width: 80px;
+  line-height: 64px;
+  text-align: center;
+  text-decoration: none;
+  color: #665757;
+}
+
+.pc-menu a:hover {
+  background: #f2f2f2;
+}
+
+.sp-menu {
+  display: none;
+}
+/*# sourceMappingURL=Hamburer-Menu.css.map */

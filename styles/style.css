@@ -1,0 +1,440 @@
+@media screen and (max-width: 1800px) {
+  .banner .rogo {
+    position: absolute;
+    font-size: 115px;
+  }
+  .banner .arrow {
+    width: 125px;
+  }
+  .frex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40px;
+  }
+  .frex .Myface {
+    width: 25%;
+    height: 50%;
+    margin-top: 60px;
+    margin-right: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+  }
+  .frex .list {
+    list-style: square;
+    margin-top: 75px;
+  }
+  .frex li {
+    font-size: 25px;
+    padding-bottom: 65px;
+  }
+  .skill__one__text {
+    padding-top: 10px;
+  }
+  .frex1 .section2 .skill__two__text {
+    margin-top: 38px;
+  }
+  .contact__width .contact1 {
+    width: 80px;
+  }
+  .contact__width .contact2 {
+    width: 85px;
+  }
+  .contact__width .contact1 {
+    margin-right: 35px;
+    margin-left: 70px;
+  }
+  .contact__width .contact2 {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .banner {
+    position: relative;
+  }
+  .banner .rogo {
+    position: absolute;
+    font-size: 95px;
+  }
+  .banner .arrow {
+    width: 95px;
+  }
+  .frex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40px;
+  }
+  .frex .Myface {
+    width: 30%;
+    height: 50%;
+  }
+  .frex1 .skills.No2 {
+    font-size: 30px;
+  }
+  .frex1 .section1 .skill__one__text {
+    text-align: center;
+    margin-top: 22px;
+  }
+  .frex1 .section2 {
+    margin-left: 110px;
+    margin-right: 150px;
+    margin-top: 79px;
+  }
+  .frex1 .section2 .skill_image2 {
+    width: 30%;
+  }
+  .frex1 .skill_image1 {
+    width: 28%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .banner .rogo {
+    position: absolute;
+    font-size: 85px;
+  }
+  .banner .arrow {
+    width: 75px;
+  }
+  .frex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 40px;
+  }
+  .frex .Myface {
+    width: 35%;
+    margin: 100px 40px 0px 10px;
+    border-radius: 50%;
+  }
+  .frex1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .frex1 .skills {
+    font-size: 35px;
+  }
+  .frex1 .section1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .frex1 .section1 .skill__one__text {
+    text-align: center;
+    margin-top: 8px;
+  }
+  .frex1 .section2 {
+    margin: 0 auto;
+  }
+  .frex1 .section2 .skill_image2 {
+    width: 18%;
+  }
+  .frex1 .section2 .width {
+    text-align: center;
+    margin: 35px;
+    padding-bottom: 5px;
+  }
+  .frex1 .section2 .skill__two__text {
+    text-align: center;
+    margin: 0px;
+  }
+  .frex1 .skill_image1 {
+    width: 18%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .banner .rogo {
+    position: absolute;
+    font-size: 45px;
+  }
+  .banner .arrow {
+    width: 45px;
+  }
+  .introduction {
+    margin-bottom: 0px;
+  }
+  .frex {
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .frex .Myface {
+    width: 55%;
+    border-radius: 50%;
+  }
+  .frex1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .frex1 .skills {
+    font-size: 35px;
+  }
+  .frex1 .section1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .frex1 .section1 .skill__one__text {
+    text-align: center;
+  }
+  .frex1 .section2 {
+    margin: 0 auto;
+  }
+  .frex1 .section2 .skill_image2 {
+    width: 18%;
+    margin-left: 8px;
+  }
+  .frex1 .section2 .width {
+    text-align: center;
+    margin: 32px;
+    padding-bottom: 0px;
+  }
+  .introduction {
+    margin-bottom: 45px;
+  }
+  .contact__width .contact1 {
+    margin: 0;
+  }
+  .contact__width .contact2 {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .banner .rogo {
+    position: absolute;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .banner .arrow {
+    width: 30px;
+  }
+  .frex {
+    margin: 0px;
+  }
+  .frex .Myface {
+    margin: 0 auto;
+  }
+}
+
+body {
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  margin: 0;
+  position: relative;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner .rogo {
+  position: absolute;
+  font-size: 175px;
+  font-weight: lighter;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #eed3d3;
+}
+
+.banner .image {
+  width: 100%;
+  z-index: 2;
+}
+
+.banner .arrow {
+  position: absolute;
+  top: 20;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 175px;
+  -webkit-animation-name: arrow-anime;
+          animation-name: arrow-anime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes arrow-anime {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  30% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes arrow-anime {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
+  }
+  30% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.introduction {
+  color: #665757;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #ddd7d7;
+}
+
+.frex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 140px;
+}
+
+.frex .Myface {
+  width: 25%;
+  margin-right: 150px;
+  margin-left: 150px;
+  border-radius: 50%;
+}
+
+.frex .list {
+  list-style: square;
+  margin-top: 75px;
+}
+
+.frex li {
+  font-size: 35px;
+  padding-bottom: 65px;
+}
+
+.skill {
+  color: #665757;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #ddd7d7;
+}
+
+.frex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.frex1 .skills {
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+}
+
+.frex1 .section1 {
+  margin-left: 170px;
+  margin-right: 20px;
+  margin-top: 77px;
+  text-align: center;
+}
+
+.frex1 .section1 .skill__one__text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.frex1 .section2 {
+  margin-left: 110px;
+  margin-right: 150px;
+  margin-top: 74px;
+}
+
+.frex1 .section2 .skill_image2 {
+  width: 26%;
+}
+
+.frex1 .section2 .width {
+  text-align: center;
+  margin: 35px;
+  padding-bottom: 5px;
+}
+
+.frex1 .section2 .skill__two__text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.frex1 .skill_image1 {
+  width: 28%;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.contact__width {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact__width .contact1 {
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+
+.contact__width .contact2 {
+  width: 105px;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+
+footer {
+  color: #665757;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-family: "Kameron", "Noto Sans JP", sans-serif;
+  background: #faf8f8;
+}
+
+footer p {
+  margin: 15px;
+}
+/*# sourceMappingURL=style.css.map */
